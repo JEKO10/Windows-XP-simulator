@@ -1,3 +1,46 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav h1 {
+  cursor: pointer;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+nav ul li {
+  margin: 0 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+nav button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: none;
+  border: 3px solid #000;
+  border-radius: 20px;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;

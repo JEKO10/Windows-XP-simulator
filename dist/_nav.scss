@@ -1,0 +1,30 @@
+nav {
+  @include flex(space-between, center);
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  h1 {
+    cursor: pointer;
+  }
+
+  ul {
+    @include flex(space-between, center);
+    list-style-type: none;
+
+    li {
+      margin: 0 20px;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+
+  button {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 10px 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
