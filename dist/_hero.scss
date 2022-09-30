@@ -1,0 +1,23 @@
+.hero {
+  @include flex(center, center);
+  flex-direction: column;
+  min-height: 85vh;
+
+  h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #202020;
+    font-family: sans-serif;
+    transform: scale(4, 7);
+  }
+
+  h2 {
+    font-size: 4rem;
+    z-index: 1;
+    margin-top: -10rem;
+    max-width: 700px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+  }
+}

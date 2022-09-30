@@ -2,9 +2,18 @@ nav {
   @include flex(space-between, center);
   padding: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
 
-  h1 {
-    cursor: pointer;
+  div {
+    @include flex(center, center);
+
+    h1 {
+      font-weight: 400;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
   }
 
   ul {
@@ -21,10 +30,11 @@ nav {
   button {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: none;
-    border: 3px solid #000;
+    border: 3px solid #fff;
     border-radius: 20px;
     padding: 10px 25px;
     letter-spacing: 1px;
+    color: #fff;
     cursor: pointer;
   }
 }
