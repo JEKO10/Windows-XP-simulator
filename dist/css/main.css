@@ -28,6 +28,8 @@ nav div h1 {
 }
 nav div img {
   margin-right: 1rem;
+  -webkit-animation: rotating 1s cubic-bezier(0, 1, 1, 1) alternate infinite;
+          animation: rotating 1s cubic-bezier(0, 1, 1, 1) alternate infinite;
 }
 nav ul {
   display: -webkit-box;
@@ -57,6 +59,27 @@ nav button {
   cursor: pointer;
 }
 
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-25px) rotate(360deg);
+            transform: translateY(-25px) rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-25px) rotate(360deg);
+            transform: translateY(-25px) rotate(360deg);
+  }
+}
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
