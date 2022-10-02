@@ -1,4 +1,4 @@
-@import "config", "nav", "hero";
+@import "config", "footer";
 
 * {
   margin: 0;
@@ -7,6 +7,6 @@
 }
 
 header {
-  background-color: #252425;
-  min-height: 100vh;
+  min-height: 96vh;
+  background: url(../../images/hero.jpg) center/cover;
 }

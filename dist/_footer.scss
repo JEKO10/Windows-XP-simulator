@@ -1,0 +1,15 @@
+footer {
+  background: rgb(56, 131, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(56, 131, 229, 1) 7%,
+    rgba(36, 94, 220, 1) 39%
+  );
+  height: 4vh;
+  overflow: hidden;
+
+  img {
+    height: 100%;
+    cursor: pointer;
+  }
+}
